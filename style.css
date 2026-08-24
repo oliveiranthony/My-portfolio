@@ -1,8 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
+    height: 100vh; /*Tamanho da tela: vh = view-port height*/
+    box-sizing: border-box;
     background-color: #000;
     color: #f6f6f6;
 }
 
-strong {
+.TituloDestaque {
     color: #22d4fd;
+}
+
+.apresentacao{
+    display: flex;
+    align-items: center;
 }
